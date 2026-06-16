@@ -20,7 +20,8 @@ join-sdwan-profile.py --gateway hq-exl --profile "SD-WAN Gateways" [--debug <reu
 ```
 <div style="max-width: 900px; margin: 0 auto;">
 <h1 style="font-size: 22px; margin-bottom: 4px;">SD-WAN Automation</h1>
-<p style="color: #555; margin-bottom: 28px; font-size: 13px;">If you are trying to use GraphQL to assign a new gateway to an existing SD-WAN profile in the SaaS application, rather than in the on-premises solution introduced with R82.20, this article may be exactly what you are looking for.<br /><br />In this GitHub Repository <a href="https://github.com/checkpointsw-devsec/SD-WAN-GraphQL"><b>link</b></a> you can find a Python script that provides a working example of this process. It also supports using an external file to store and load the required credentials for the script.</p>
+
+
 <div style="font-size: 11px; font-weight: bold; text-transform: uppercase; letter-spacing: .06em; color: #555; margin: 0 0 5px;">How to use the command:</div>
 <div style="font-family: monospace; font-size: 13px; background: #f0f4f8; border: 1px solid #cdd5df; border-radius: 4px; padding: 8px 12px;">join-sdwan-profile.py --gateway &lt;gateway name&gt; --profile "SD-WAN Gateways" [--debug [request|response|both] [--env /path/to/.env]</div>
 <div style="font-size: 11px; font-weight: bold; text-transform: uppercase; letter-spacing: .06em; color: #555; margin: 14px 0 5px;"></div>
