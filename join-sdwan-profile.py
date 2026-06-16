@@ -4,10 +4,10 @@ join-sdwan-profile.py
 Standalone script: assign a gateway to an SD-WAN profile in the Infinity Portal.
 
 Usage:
-    python join-sdwan-profile.py --gateway <gateway-name> --profile <sd-wan-profile-name>
+    python join-sdwan-profile.py --gateway <gateway-name> --profile <sd-wan-profile-name> [--debug both] [--env /path/to/.ev-file]
     python join-sdwan-profile.py --gateway hq-exl --profile "SD-WAN Gateways"
-    python join-sdwan-profile.py --gateway hq-exl --profile "SD-WAN Gateways" --dry-run
-    python join-sdwan-profile.py --gateway hq-exl --profile "SD-WAN Gateways" --debug both
+    
+    
 
 Required .env keys:
     SD_WAN_Client_ID          OAuth clientId
