@@ -26,7 +26,7 @@ join-sdwan-profile.py --gateway hq-exl --profile "SD-WAN Gateways" [--debug <reu
 <div style="font-family: monospace; font-size: 13px; background: #f0f4f8; border: 1px solid #cdd5df; border-radius: 4px; padding: 8px 12px;">join-sdwan-profile.py --gateway &lt;gateway name&gt; --profile "SD-WAN Gateways" [--debug [request|response|both] [--env /path/to/.env]</div>
 <div style="font-size: 11px; font-weight: bold; text-transform: uppercase; letter-spacing: .06em; color: #555; margin: 14px 0 5px;"></div>
 <p style="color: #555; margin-bottom: 28px; font-size: 13px;"><strong>Note: </strong>to run the automation with SD-WAN you need to create an Account-API Key that has admin&nbsp;<br />permission on SD-WAN!</p>
-<p style="color: #555; margin-bottom: 28px; font-size: 13px;">This Secure knowledge describes the flow and GraphQL that has been used.</p>
+
 <p style="color: #555; margin-bottom: 28px; font-size: 13px;">Assigns a gateway to an SD-WAN profile via the Infinity Portal. All GraphQL calls share the same endpoint; only the OAuth call differs.</p>
 <!-- Flow -->
 <h2 style="font-size: 16px; margin: 32px 0 12px; border-bottom: 2px solid #d0d5dd; padding-bottom: 6px;">Execution Flow</h2>
